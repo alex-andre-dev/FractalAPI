@@ -190,7 +190,7 @@ class BeersCollectionViewController: UICollectionViewController, ViewProtocol {
     @objc func closeButtonTapped() {
         titleLabel.text = "Beer List"
         cancelButtonTapped()
-        favoritesButton.isHidden.toggle()
+        favoritesButton.isHidden = false
         noResultsLabel.isHidden = true
         noResultsImageView.isHidden = true
     }
@@ -235,7 +235,7 @@ class BeersCollectionViewController: UICollectionViewController, ViewProtocol {
         }
         viewModel.setFilteredBeers(beerMedias: favoritesBeers)
         collectionView.reloadData()
-        favoritesButton.isHidden.toggle()
+        favoritesButton.isHidden = true
         navigationItem.rightBarButtonItem = closeButton
         navigationItem.titleView = titleFavoritesLabel
         
