@@ -1,0 +1,740 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECE830792B65965C00D0E19D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE830782B65965C00D0E19D /* AppDelegate.swift */; };
+		ECE8307B2B65965C00D0E19D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8307A2B65965C00D0E19D /* SceneDelegate.swift */; };
+		ECE8307D2B65965C00D0E19D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8307C2B65965C00D0E19D /* ViewController.swift */; };
+		ECE830802B65965C00D0E19D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE8307E2B65965C00D0E19D /* Main.storyboard */; };
+		ECE830822B65965F00D0E19D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECE830812B65965F00D0E19D /* Assets.xcassets */; };
+		ECE830852B65965F00D0E19D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECE830832B65965F00D0E19D /* LaunchScreen.storyboard */; };
+		ECE830902B65965F00D0E19D /* FractalAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8308F2B65965F00D0E19D /* FractalAPITests.swift */; };
+		ECE8309A2B65965F00D0E19D /* FractalAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE830992B65965F00D0E19D /* FractalAPIUITests.swift */; };
+		ECE8309C2B65965F00D0E19D /* FractalAPIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE8309B2B65965F00D0E19D /* FractalAPIUITestsLaunchTests.swift */; };
+		ECE830AF2B6598B700D0E19D /* BeersCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE830AE2B6598B700D0E19D /* BeersCollectionViewController.swift */; };
+		ECE830B12B65990E00D0E19D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE830B02B65990E00D0E19D /* Extensions.swift */; };
+		ECE830B32B65993500D0E19D /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE830B22B65993500D0E19D /* Protocols.swift */; };
+		ECE830B52B65D2DB00D0E19D /* BeerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE830B42B65D2DB00D0E19D /* BeerCollectionViewCell.swift */; };
+		ECE830B72B6624BF00D0E19D /* BeerDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE830B62B6624BF00D0E19D /* BeerDetailedViewController.swift */; };
+		ECE830B92B663F3F00D0E19D /* APIAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE830B82B663F3F00D0E19D /* APIAccess.swift */; };
+		ECE830BB2B66426400D0E19D /* BeerMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE830BA2B66426400D0E19D /* BeerMedia.swift */; };
+		ECE830BD2B66478A00D0E19D /* BeersCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE830BC2B66478A00D0E19D /* BeersCollectionViewModel.swift */; };
+		ECE830C12B674FB900D0E19D /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = ECE830C02B674FB900D0E19D /* SDWebImage */; };
+		ECE830C32B6757FE00D0E19D /* BeerDetailedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE830C22B6757FE00D0E19D /* BeerDetailedViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECE8308C2B65965F00D0E19D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECE8306D2B65965B00D0E19D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECE830742B65965B00D0E19D;
+			remoteInfo = FractalAPI;
+		};
+		ECE830962B65965F00D0E19D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECE8306D2B65965B00D0E19D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECE830742B65965B00D0E19D;
+			remoteInfo = FractalAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ECE830752B65965B00D0E19D /* FractalAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FractalAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE830782B65965C00D0E19D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ECE8307A2B65965C00D0E19D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		ECE8307C2B65965C00D0E19D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ECE8307F2B65965C00D0E19D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECE830812B65965F00D0E19D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ECE830842B65965F00D0E19D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ECE830862B65965F00D0E19D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECE8308B2B65965F00D0E19D /* FractalAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FractalAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE8308F2B65965F00D0E19D /* FractalAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractalAPITests.swift; sourceTree = "<group>"; };
+		ECE830952B65965F00D0E19D /* FractalAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FractalAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE830992B65965F00D0E19D /* FractalAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractalAPIUITests.swift; sourceTree = "<group>"; };
+		ECE8309B2B65965F00D0E19D /* FractalAPIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FractalAPIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ECE830AE2B6598B700D0E19D /* BeersCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersCollectionViewController.swift; sourceTree = "<group>"; };
+		ECE830B02B65990E00D0E19D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		ECE830B22B65993500D0E19D /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		ECE830B42B65D2DB00D0E19D /* BeerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerCollectionViewCell.swift; sourceTree = "<group>"; };
+		ECE830B62B6624BF00D0E19D /* BeerDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetailedViewController.swift; sourceTree = "<group>"; };
+		ECE830B82B663F3F00D0E19D /* APIAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIAccess.swift; sourceTree = "<group>"; };
+		ECE830BA2B66426400D0E19D /* BeerMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerMedia.swift; sourceTree = "<group>"; };
+		ECE830BC2B66478A00D0E19D /* BeersCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersCollectionViewModel.swift; sourceTree = "<group>"; };
+		ECE830C22B6757FE00D0E19D /* BeerDetailedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDetailedViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECE830722B65965B00D0E19D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE830C12B674FB900D0E19D /* SDWebImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE830882B65965F00D0E19D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE830922B65965F00D0E19D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECE8306C2B65965B00D0E19D = {
+			isa = PBXGroup;
+			children = (
+				ECE830772B65965B00D0E19D /* FractalAPI */,
+				ECE8308E2B65965F00D0E19D /* FractalAPITests */,
+				ECE830982B65965F00D0E19D /* FractalAPIUITests */,
+				ECE830762B65965B00D0E19D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECE830762B65965B00D0E19D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECE830752B65965B00D0E19D /* FractalAPI.app */,
+				ECE8308B2B65965F00D0E19D /* FractalAPITests.xctest */,
+				ECE830952B65965F00D0E19D /* FractalAPIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECE830772B65965B00D0E19D /* FractalAPI */ = {
+			isa = PBXGroup;
+			children = (
+				ECE830A82B6597E400D0E19D /* Network */,
+				ECE830A92B6597F100D0E19D /* Models */,
+				ECE830AA2B6597FF00D0E19D /* Views */,
+				ECE830AB2B65980E00D0E19D /* ViewModels */,
+				ECE830AC2B65981B00D0E19D /* Controllers */,
+				ECE830AD2B65982B00D0E19D /* Utils */,
+				ECE830782B65965C00D0E19D /* AppDelegate.swift */,
+				ECE8307A2B65965C00D0E19D /* SceneDelegate.swift */,
+				ECE8307C2B65965C00D0E19D /* ViewController.swift */,
+				ECE8307E2B65965C00D0E19D /* Main.storyboard */,
+				ECE830812B65965F00D0E19D /* Assets.xcassets */,
+				ECE830832B65965F00D0E19D /* LaunchScreen.storyboard */,
+				ECE830862B65965F00D0E19D /* Info.plist */,
+			);
+			path = FractalAPI;
+			sourceTree = "<group>";
+		};
+		ECE8308E2B65965F00D0E19D /* FractalAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECE8308F2B65965F00D0E19D /* FractalAPITests.swift */,
+			);
+			path = FractalAPITests;
+			sourceTree = "<group>";
+		};
+		ECE830982B65965F00D0E19D /* FractalAPIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ECE830992B65965F00D0E19D /* FractalAPIUITests.swift */,
+				ECE8309B2B65965F00D0E19D /* FractalAPIUITestsLaunchTests.swift */,
+			);
+			path = FractalAPIUITests;
+			sourceTree = "<group>";
+		};
+		ECE830A82B6597E400D0E19D /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				ECE830B82B663F3F00D0E19D /* APIAccess.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		ECE830A92B6597F100D0E19D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ECE830BA2B66426400D0E19D /* BeerMedia.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ECE830AA2B6597FF00D0E19D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ECE830B42B65D2DB00D0E19D /* BeerCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		ECE830AB2B65980E00D0E19D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				ECE830BC2B66478A00D0E19D /* BeersCollectionViewModel.swift */,
+				ECE830C22B6757FE00D0E19D /* BeerDetailedViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		ECE830AC2B65981B00D0E19D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECE830AE2B6598B700D0E19D /* BeersCollectionViewController.swift */,
+				ECE830B62B6624BF00D0E19D /* BeerDetailedViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		ECE830AD2B65982B00D0E19D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				ECE830B02B65990E00D0E19D /* Extensions.swift */,
+				ECE830B22B65993500D0E19D /* Protocols.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECE830742B65965B00D0E19D /* FractalAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE8309F2B65965F00D0E19D /* Build configuration list for PBXNativeTarget "FractalAPI" */;
+			buildPhases = (
+				ECE830712B65965B00D0E19D /* Sources */,
+				ECE830722B65965B00D0E19D /* Frameworks */,
+				ECE830732B65965B00D0E19D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FractalAPI;
+			packageProductDependencies = (
+				ECE830C02B674FB900D0E19D /* SDWebImage */,
+			);
+			productName = FractalAPI;
+			productReference = ECE830752B65965B00D0E19D /* FractalAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECE8308A2B65965F00D0E19D /* FractalAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE830A22B65965F00D0E19D /* Build configuration list for PBXNativeTarget "FractalAPITests" */;
+			buildPhases = (
+				ECE830872B65965F00D0E19D /* Sources */,
+				ECE830882B65965F00D0E19D /* Frameworks */,
+				ECE830892B65965F00D0E19D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECE8308D2B65965F00D0E19D /* PBXTargetDependency */,
+			);
+			name = FractalAPITests;
+			productName = FractalAPITests;
+			productReference = ECE8308B2B65965F00D0E19D /* FractalAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECE830942B65965F00D0E19D /* FractalAPIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE830A52B65965F00D0E19D /* Build configuration list for PBXNativeTarget "FractalAPIUITests" */;
+			buildPhases = (
+				ECE830912B65965F00D0E19D /* Sources */,
+				ECE830922B65965F00D0E19D /* Frameworks */,
+				ECE830932B65965F00D0E19D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECE830972B65965F00D0E19D /* PBXTargetDependency */,
+			);
+			name = FractalAPIUITests;
+			productName = FractalAPIUITests;
+			productReference = ECE830952B65965F00D0E19D /* FractalAPIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECE8306D2B65965B00D0E19D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					ECE830742B65965B00D0E19D = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					ECE8308A2B65965F00D0E19D = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = ECE830742B65965B00D0E19D;
+					};
+					ECE830942B65965F00D0E19D = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = ECE830742B65965B00D0E19D;
+					};
+				};
+			};
+			buildConfigurationList = ECE830702B65965B00D0E19D /* Build configuration list for PBXProject "FractalAPI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECE8306C2B65965B00D0E19D;
+			packageReferences = (
+				ECE830BF2B674FB900D0E19D /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
+			productRefGroup = ECE830762B65965B00D0E19D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECE830742B65965B00D0E19D /* FractalAPI */,
+				ECE8308A2B65965F00D0E19D /* FractalAPITests */,
+				ECE830942B65965F00D0E19D /* FractalAPIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECE830732B65965B00D0E19D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE830852B65965F00D0E19D /* LaunchScreen.storyboard in Resources */,
+				ECE830822B65965F00D0E19D /* Assets.xcassets in Resources */,
+				ECE830802B65965C00D0E19D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE830892B65965F00D0E19D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE830932B65965F00D0E19D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECE830712B65965B00D0E19D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE830C32B6757FE00D0E19D /* BeerDetailedViewModel.swift in Sources */,
+				ECE830B72B6624BF00D0E19D /* BeerDetailedViewController.swift in Sources */,
+				ECE830B12B65990E00D0E19D /* Extensions.swift in Sources */,
+				ECE8307D2B65965C00D0E19D /* ViewController.swift in Sources */,
+				ECE830B52B65D2DB00D0E19D /* BeerCollectionViewCell.swift in Sources */,
+				ECE830BB2B66426400D0E19D /* BeerMedia.swift in Sources */,
+				ECE830BD2B66478A00D0E19D /* BeersCollectionViewModel.swift in Sources */,
+				ECE830792B65965C00D0E19D /* AppDelegate.swift in Sources */,
+				ECE830B32B65993500D0E19D /* Protocols.swift in Sources */,
+				ECE8307B2B65965C00D0E19D /* SceneDelegate.swift in Sources */,
+				ECE830B92B663F3F00D0E19D /* APIAccess.swift in Sources */,
+				ECE830AF2B6598B700D0E19D /* BeersCollectionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE830872B65965F00D0E19D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE830902B65965F00D0E19D /* FractalAPITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE830912B65965F00D0E19D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE8309A2B65965F00D0E19D /* FractalAPIUITests.swift in Sources */,
+				ECE8309C2B65965F00D0E19D /* FractalAPIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECE8308D2B65965F00D0E19D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECE830742B65965B00D0E19D /* FractalAPI */;
+			targetProxy = ECE8308C2B65965F00D0E19D /* PBXContainerItemProxy */;
+		};
+		ECE830972B65965F00D0E19D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECE830742B65965B00D0E19D /* FractalAPI */;
+			targetProxy = ECE830962B65965F00D0E19D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECE8307E2B65965C00D0E19D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE8307F2B65965C00D0E19D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ECE830832B65965F00D0E19D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE830842B65965F00D0E19D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECE8309D2B65965F00D0E19D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ECE8309E2B65965F00D0E19D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECE830A02B65965F00D0E19D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQ8G69GT7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FractalAPI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlexAndre.FractalAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ECE830A12B65965F00D0E19D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQ8G69GT7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FractalAPI/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlexAndre.FractalAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ECE830A32B65965F00D0E19D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQ8G69GT7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlexAndre.FractalAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FractalAPI.app/FractalAPI";
+			};
+			name = Debug;
+		};
+		ECE830A42B65965F00D0E19D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQ8G69GT7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlexAndre.FractalAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FractalAPI.app/FractalAPI";
+			};
+			name = Release;
+		};
+		ECE830A62B65965F00D0E19D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQ8G69GT7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlexAndre.FractalAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FractalAPI;
+			};
+			name = Debug;
+		};
+		ECE830A72B65965F00D0E19D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AQ8G69GT7J;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = AlexAndre.FractalAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FractalAPI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECE830702B65965B00D0E19D /* Build configuration list for PBXProject "FractalAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE8309D2B65965F00D0E19D /* Debug */,
+				ECE8309E2B65965F00D0E19D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE8309F2B65965F00D0E19D /* Build configuration list for PBXNativeTarget "FractalAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE830A02B65965F00D0E19D /* Debug */,
+				ECE830A12B65965F00D0E19D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE830A22B65965F00D0E19D /* Build configuration list for PBXNativeTarget "FractalAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE830A32B65965F00D0E19D /* Debug */,
+				ECE830A42B65965F00D0E19D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE830A52B65965F00D0E19D /* Build configuration list for PBXNativeTarget "FractalAPIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE830A62B65965F00D0E19D /* Debug */,
+				ECE830A72B65965F00D0E19D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ECE830BF2B674FB900D0E19D /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ECE830C02B674FB900D0E19D /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ECE830BF2B674FB900D0E19D /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = ECE8306D2B65965B00D0E19D /* Project object */;
+}
